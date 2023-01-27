@@ -1713,7 +1713,7 @@ textarea.form-control {
     --bs-nav-tabs-border-radius: 0.375rem;
     --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;
     --bs-nav-tabs-link-active-color: #495057;
-    --bs-nav-tabs-link-active-bg: #fff;
+    --bs-nav-tabs-link-active-bg: rgb(207, 34, 144);
     --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
     border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color)
 }
@@ -1819,7 +1819,7 @@ textarea.form-control {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)
 }
 
@@ -2115,6 +2115,11 @@ textarea.form-control {
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
+.navbar-brand >img{
+    width: 200px;
+}
+
+
 .card {
     --bs-card-spacer-y: 1rem;
     --bs-card-spacer-x: 1rem;
@@ -2379,4 +2384,14 @@ textarea.form-control {
 
 .text-white {
     color: white;
+}
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(121, 2, 105);
+}
+.welcome p{
+    color: rgb(121, 2, 105);
+    font-weight: 500;
+    
 }
