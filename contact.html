@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Rokkitt&family=Yeseva+One&display=swap">
+    <style>
+  
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      
+      
+      }
+
+      body{
+        background-image: url("./images/africa-humanitarian-aid-doctor.jpg");
+      
+      }
+      .contact-us-heading{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin-bottom: 30px;
+        text-decoration: none;
+        background-color: #5bc1ac;
+      }
+
+      .get-in-touch {
+        display: flex;
+        width: 80%;
+        background-color: #fff;
+        justify-content: space-between;
+        margin: 40px auto;
+        border-radius: 10px;
+      
+      }
+      .call-us {
+        flx: 50%;
+        margin-left: 40px;
+      }
+      #call-us-img{
+        background-color: rgb(64, 181, 173);
+        border-radius: 120px;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        
+      }
+      .call-us-img {
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          margin-right: 30px;
+          margin-left: 2px;
+      }
+
+      .contact-form {
+        flex: 50%;
+        border-radius: 10px;
+        border: 2px solid rgb(64, 181, 173);
+        padding: 30px;
+        background-color: rgb(203, 206, 206);
+        margin-left: 20px;
+      }
+      h2 {
+        color: rgb(170, 51, 106);
+        font-size: 16px;
+      }
+       h1 {
+        color: rgb(116, 18, 63);
+        font-size: 2em;
+        margin-bottom: 10px;
+ 
+      }
+      .call-us h1 {
+        margin-bottom: 20px;
+      }
+      p{
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 1.5;
+        color: rgb(72, 5, 38);
+      }
+      .name{
+        width: 100%;
+      }
+      input{
+        border-radius: 4px;
+      }
+      #get-direction{
+        margin-bottom: 30px;
+      }
+      .get-direction{
+        border-radius: 30px;
+        font-size: 8px;
+        padding: 8px 12px;
+        font-size: 10px;
+        background-color: rgb(170, 51, 106);
+        color: #fff;
+        transition: all 200ms ease-in-out;
+        border: 1px solid rgb(170, 51, 106);
+        
+      }
+      .get-direction:hover{
+        background-color: rgb(255, 105, 180);
+        cursor: pointer;
+      }
+      .form-input-fname,
+      .form-input-sname {
+          width: 45%;
+          padding: 5px;
+          margin: 10px auto;
+          border: 1px solid rgb(64, 181, 173);
+          color: rgb(250, 239, 244);
+          font-size: 8px;
+      }
+      .form-input-fname{
+        margin-right: 10px;
+      }
+      .form-input-email,
+      .form-input-message {
+        padding: 5px;
+        align-items: center;
+        margin: 10px auto;
+        width: 100%;
+        border: 1px solid rgb(64, 181, 173);
+        color: rgb(255, 255, 255);
+        font-size: 8px;
+        border-radius: 4px;
+      }
+
+      .form-button {
+        border-radius: 30px;
+        font-size: 8px;
+        padding: 8px 12px;
+        font-size: 10px;
+        background-color: rgb(170, 51, 106);
+        color: #fff;
+        transition: all 200ms ease-in-out;
+        width: 100%;
+        border: 1px solid rgb(170, 51, 106);
+      }
+      .form-button:hover {
+        background-color: rgb(255, 105, 180);
+        cursor: pointer;
+      }
+      /* //footer */
+      .footer {
+        background-color: #44525D;
+        padding: 20px;
+      }
+      .quick-links {
+        display: flex;
+        align-items: center;
+        padding: 10px 40px;
+        justify-content: space-between;
+      }
+      .quick-links div{
+        flex: 33.33%;
+      }
+      .footer h2{
+        margin-bottom: 10px;
+      }
+      .footer p{
+        color: #fff;
+      }
+
+      li {
+        list-style: none;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 10px;
+      }
+      a:hover{
+        text-decoration: underline;
+        color: rgb(170, 51, 106);
+      }
+      .b-footer{
+        margin-top: 30px;
+      }
+      hr{
+        width: 100%;
+        border:1px solid rgb(170, 51, 106);
+        margin: 20px 0px;
+      }
+
+      .copyright {
+        /* background-color: rgb(64, 181, 173); */
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+      }
+      .copyright p:hover{
+        color:#5bc1ac
+      }
+
+      /* responsiveness */
+      /* Media Queries */
+
+
+        /* Media query for screens below 600px */
+    @media only screen and (max-width: 600px) {
+        footer {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+    .get-in-touch {
+        flex-direction: column;
+    }
+    .call-us {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .contact-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="contact-us">
+      <h1 class="contact-us-heading">Contact Us</h1>
+      <div class="get-in-touch">
+        <div class="call-us">
+          <h1>Get in touch</h1>
+          <div id="call-us-img">
+            <img src="./homepage images/group 4 logo.jpg" alt="" class="call-us-img">
+            <p>Healthy Women Foundation<br><strong>&copySapphireladies.org</strong></p>
+          </div>
+          <hr>
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p id="get-direction">+2540900000<br>
+            donate@healthywomanfoundation.org</br>
+            Nigeria, Ghana, Kenya.</p>
+            <button class="get-direction">Get Direction</button>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h1>Contact form</h1>
+          <p>Or, you can just send an email: info@sapphireladies.org</p>
+          <form>
+            <span class="name">
+            <input
+              class="form-input-fname"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Surname"
+              required
+            />
+            <input
+              class="form-input-sname"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Other names"
+              required
+            />
+            </span>
+            <br />
+            <input
+              class="form-input-email"
+              type="text"
+              id="email"
+              name="email"
+              placeholder="johndoe@gmail.com"
+              required
+            />
+            <br />
+            <textarea
+              class="form-input-message"
+              id="message"
+              name="message"
+              cols="20"
+              rows="10"
+              placeholder="How can we help you?"
+              required
+            ></textarea>
+            <br />
+            <button
+              class="form-button"
+            >Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="quick-links">
+          <div class="logo-img">
+            <img src="./homepage images/group 4 logo.jpg" alt="logo" width="120px" />
+          </div>
+          <div>
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="index.html">Our Story</a></li>
+              <li><a href="blogs.html">Newsroom</a></li>
+          
+              <li><a href="index.html">Become a volunteer</a></li>
+              <li><a href="">Partner with us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Contact Information</h2>
+            <p>+2540900000<br>
+            donate@healthywomanfoundation.org</br>
+            Nigeria, Ghana, Kenya.</p>
+            <button class="get-direction b-footer">Get Direction</button>
+          </div>
+        </div>
+        <hr>
+        <div class="copyright">
+          <p>Copyright &copy 2023 Healthy Women Foundation</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
