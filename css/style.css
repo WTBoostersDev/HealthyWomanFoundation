@@ -700,7 +700,7 @@ strong {
   VOLUNTEER              
 -----------------------------------------*/
 .volunteer-section {
-  background: var(--secondary-color);
+  background: rgb(255,105, 180);
   position: relative;
   overflow: hidden;
 }
