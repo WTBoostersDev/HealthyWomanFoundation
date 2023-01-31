@@ -1,7 +1,8 @@
-**HEALTHY WOMAN FOUNDATION**
+#HEALTHY WOMAN FOUNDATION**
+************************************
 
 ##Outline
---------------------------------
+====================
 1. About Healthy Woman Foundation
 2. Problem Statement
 3. SDGs that inspired us
@@ -12,7 +13,7 @@
 8. Thank you
 
 ###About
----------------------
+====================
 The Healthy Woman Foundation is a non-governmental organization dedicated to empowering and educating African women, notably those living in rural areas.
 This NGO was founded by Sapphire ladies (Group 4) in Tech4Dev 2.4 cohort (Software Development). We believe that empowering women with health information will reduce morbidity and mortality while also promoting good health and well-being among all members of society.
 
