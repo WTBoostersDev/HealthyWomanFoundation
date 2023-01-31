@@ -1,8 +1,9 @@
 HEALTHY WOMAN FOUNDATION
 
 OUTLINE
-•	About Healthy Woman Foundation
-•	Problem Statement
+--------------------------------
+-About Healthy Woman Foundation
+-Problem Statement
 •	SDGs that inspired us
 •	Mission and Vision statement
 •	Plan
