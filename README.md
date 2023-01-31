@@ -2,7 +2,7 @@
 ============================
 
 ##Outline
-***************
+--------------
 1. About Healthy Woman Foundation
 2. Problem Statement
 3. SDGs that inspired us
